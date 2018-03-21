@@ -16,6 +16,9 @@ public class Main {
     public static void main( String[] args ) {
 
         PasswordGetter pg1 = new PasswordGetter();
+        System.out.println(pg1.getPassword());
+
+
 
         if (Desktop.isDesktopSupported()) {
             try {
