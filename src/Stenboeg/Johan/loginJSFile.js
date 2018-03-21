@@ -1,10 +1,13 @@
 // ctrl + U
 
 //Enter UserName
-document.getElementById("username").value = "Enter Username here";
+var usernameString = "";
+document.getElementById("username").value = usernameString;
+
 
 //Enter Password
-document.getElementById("password").value = "Enter Password here";
+var passwordString = "";
+document.getElementById("password").value = passwordString;
 
 //Run submitAction();
 submitAction();
