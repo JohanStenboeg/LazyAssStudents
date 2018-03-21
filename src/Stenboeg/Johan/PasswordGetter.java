@@ -7,9 +7,10 @@ import java.io.IOException;
 public class PasswordGetter {
 
     private static final String FILENAME = "C:\\Users\\Johan Stenbøg\\Documents\\AutoLogin.txt";
+    private String password;
 
-    public static String getFILENAME() {
-        return FILENAME;
+    public String getPassword() {
+        return password;
     }
 
     public PasswordGetter(){
@@ -20,7 +21,7 @@ public class PasswordGetter {
 
 
             while ((sCurrentLine = br.readLine()) != null) {
-                System.out.println(sCurrentLine);
+                password = sCurrentLine;
             }
 
         } catch (IOException e) {
