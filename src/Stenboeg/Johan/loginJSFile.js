@@ -6,7 +6,7 @@ document.getElementById("username").value = usernameString;
 
 
 //Enter Password
-var passwordString = "";
+var passwordString = " ";
 document.getElementById("password").value = passwordString;
 
 
